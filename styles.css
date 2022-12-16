@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(217, 217, 217);
+}
+
+.big_circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(36, 132, 86);
+  position: absolute;
+  left: -150px;
+  top: -150px;
+}
+.small_circle {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: rgb(12, 165, 101);
+  position: absolute;
+  right: 97px;
+  bottom: 207px;
+  z-index: 2;
+}
+.rectangle {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(25, 63, 161);
+  rotate: 45deg;
+  position: absolute;
+  right: 56px;
+  top: 188px;
+  z-index: 1;
+}
+
+.rectangle_radius {
+  width: 380px;
+  height: 100px;
+  border-radius: 35px;
+  background-color: rgb(146, 15, 191);
+  margin: 0 auto;
+  position: absolute;
+  right: 65px;
+  bottom: 66px;
+  z-index: 1;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-bottom: 125px solid red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
